@@ -40,12 +40,16 @@ header {
     text-align: center;
 }
 
+.imagem {
+    flex: 1;
+    text-align: center;
+}
+
 .imagem img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
 
 
 .texto {
@@ -55,21 +59,13 @@ header {
     color: #333;
 }
 
-.imagem {
-    flex: 1;
-}
-
-.imagem img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
 
 .f {
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
-    max-width: 700px;
+    max-width: 1000px;
+    width: 90%;
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
