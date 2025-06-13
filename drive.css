@@ -41,7 +41,7 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.f{
+.f {
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
@@ -52,8 +52,9 @@ header {
 }
 
 
-.left_button{
-        margin-right: auto; /* Pushes the element to the right in a flex container */
+.left_button {
+    margin-right: auto;
+    /* Pushes the element to the right in a flex container */
 }
 
 .curved-box {
@@ -63,27 +64,32 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     text-align: center;
-    height: 50px; /* Fixed height */
+    height: 50px;
+    /* Fixed height */
     color: white;
 
     display: flex;
-    justify-content: center;  /* horizontal centering */
-    align-items: center;      /* vertical centering */
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
 
-    margin: 0 auto; /* 🔹 Centers the box in its parent (the section) */
+    margin: 0 auto;
+    /* 🔹 Centers the box in its parent (the section) */
 }
 
 .botao {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff; /* azul */
-  color: white;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* azul */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
 }
 
 .bio img {
