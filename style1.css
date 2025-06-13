@@ -57,6 +57,7 @@ header {
     justify-content: center;  /* horizontal centering */
     align-items: center;      /* vertical centering */
 
+    margin: 0 auto; /* 🔹 Centers the box in its parent (the section) */
 }
 
 .bio img {
