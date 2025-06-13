@@ -39,6 +39,9 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
 }
+.left_button{
+        margin-right: auto; /* Pushes the element to the right in a flex container */
+}
 
 .curved-box {
     background: rgb(20, 7, 89);
