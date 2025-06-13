@@ -17,7 +17,19 @@ header {
     padding: 20px;
     background-color: #333;
     color: white;
+    font-size: 16px;
 }
+
+/*
+header {
+  background-image: url('robocup.jpg');  /* Caminho da imagem 
+  background-size: cover;                   /* Faz a imagem cobrir todo o header 
+  background-position: center;              /* Centraliza a imagem 
+  color: white;                             /* Para texto ser visível 
+  padding: 60px 20px;                       /* Espaçamento interno 
+  text-align: center;                       /* Centraliza o texto 
+}
+*/
 
 .bio,
 .details {
@@ -29,24 +41,22 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.Formation , .Robotics{
+.f{
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
     max-width: 700px;
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    
-    /*display: flex;*/
 
 }
 
-.button_right {
-  margin-left: auto;  /* Push this item to the far right */
+
+.left_button{
+        margin-right: auto; /* Pushes the element to the right in a flex container */
 }
 
 .curved-box {
-    margin-right: auto; /* Pushes the element to the left in a flex container */
     background: rgb(20, 7, 89);
     border-radius: 20px;
     padding: 20px;
@@ -60,12 +70,13 @@ header {
     justify-content: center;  /* horizontal centering */
     align-items: center;      /* vertical centering */
 
+    margin: 0 auto; /* 🔹 Centers the box in its parent (the section) */
 }
 
 .botao {
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgb(11, 10, 72); /* azul */
+  background-color: #007bff; /* azul */
   color: white;
   text-decoration: none;
   border: none;
@@ -73,10 +84,6 @@ header {
   font-weight: bold;
   font-family: Arial, sans-serif;
   transition: background-color 0.3s ease;
-}
-
-.botao:hover {
-  background-color: #0056b3; /* azul mais escuro ao passar o mouse */
 }
 
 .bio img {
