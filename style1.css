@@ -12,12 +12,21 @@ body {
     padding: 20px;
 }
 
-header {
+/*header {
     text-align: center;
     padding: 20px;
     background-color: #333;
     color: white;
     font-size: 16px;
+}*/
+
+header {
+  background-image: url('robocup.jpg');  /* Caminho da imagem */
+  background-size: cover;                   /* Faz a imagem cobrir todo o header */
+  background-position: center;              /* Centraliza a imagem */
+  color: white;                             /* Para texto ser visível */
+  padding: 60px 20px;                       /* Espaçamento interno */
+  text-align: center;                       /* Centraliza o texto */
 }
 
 .bio,
