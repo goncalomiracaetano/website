@@ -39,6 +39,10 @@ header {
 
 }
 
+.button_right {
+    margin-left: auto; /* Pushes the element to the right in a flex container */
+}
+
 .curved-box {
     margin-right: auto; /* Pushes the element to the left in a flex container */
     background: rgb(20, 7, 89);

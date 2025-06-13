@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(105, 56, 56);
+    background-color: rgb(49, 4, 4);
     color: #f8f6f6;
     line-height: 1.6;
     padding: 20px;
@@ -30,7 +30,7 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.Formation , .Robotics{
+.Formation , .robot{
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
