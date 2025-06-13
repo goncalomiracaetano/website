@@ -30,7 +30,7 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.Formation , .robot{
+.Formation , .robot, .desc{
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
