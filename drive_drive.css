@@ -16,10 +16,10 @@ body {
 
 header {
   position: relative;
-  height: 100px; /* ou defina altura desejada */
-  text-align: center;
+  height: 100px;
   overflow: hidden;
-  background: black; /* opcional: fundo escuro */
+  color: white;
+  text-align: center;
 }
 
 header video {
