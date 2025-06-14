@@ -14,12 +14,12 @@ body {
 
 /**********************************************************/
 
-header {
+hheader {
   position: relative;
-  height: 400px;
   overflow: hidden;
   color: white;
   text-align: center;
+  padding: 60px 20px; /* controla a altura visual */
 }
 
 header video {
