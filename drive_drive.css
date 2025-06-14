@@ -14,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    padding: 40px;
+    padding: 60px;
     background-color: #333;
     color: white;
     font-size: 16px;
@@ -52,6 +52,7 @@ header {
     height: auto;
     border-radius: 8px;
 }
+
 /********************************************************/
 
 /* Variante com imagem à esquerda */
@@ -86,7 +87,8 @@ header {
 }
 
 
-.f, .S {
+.f,
+.S {
     background: rgb(0, 16, 1);
     margin: 10px auto;
     padding: 20px;
@@ -99,6 +101,7 @@ header {
 
 }
 
+/****************************************************/
 .botao {
     display: inline-block;
     padding: 10px 20px;
@@ -117,6 +120,24 @@ header {
     background-color: #0056b3;
     /* azul mais escuro ao passar o mouse */
 }
+
+/******************************************************/
+
+.botao_dow {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao_dow:hover {
+    background-color: #218838;
+}
+
+/******************************************************/
 
 
 footer {
