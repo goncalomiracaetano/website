@@ -16,26 +16,29 @@ body {
 
 header {
   position: relative;
-  height: 100px;
+  height: 200px;
   overflow: hidden;
   color: white;
   text-align: center;
 }
 
 header video {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
-  height: 100px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
+  height: auto;
   z-index: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .header-content {
   position: relative;
-  z-index: 1;
-  padding: 20px;
+  z-index: 1; /* Garante que o texto fique acima do vídeo */
+  padding: 60px 20px;
 }
 
 /********************************************************/
